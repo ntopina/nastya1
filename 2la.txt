@@ -1,0 +1,13 @@
+dir /?>dir.txt
+copy /?>copy.txt
+xcopy/?>xcopy.txt
+dir C:\Windows\*.exe
+copy "C:\Windows\*.exe" "D:\lab1"
+dir C:\Windows\*.png
+dir D:\Windows\*.png
+dir Z:\Windows\*.png
+xcopy "C:\Windows\*.png" "D:\lab2" & xcopy "C:\Windows\*.jpg" "D:\lab2"
+copy C:\Windows\*.bmp /A:R /O:S /S
+copy C:\Windows\*.bmp /A:R /O:S /D
+doskey /history > 2la/txt
+doskey /history > 2la.txt
